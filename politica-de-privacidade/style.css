@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1b4a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    max-width: 8rem;
+    height: auto;
+    margin-left: -17em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:#1a1b4a;
+}
+
+footer {
+    background-color: #1a1b4a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para tornar a página responsiva */
+
+@media (max-width: 768px) {
+    header {
+              text-align: center;
+              justify-content: center;
+              
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin-top: 10px;
+        /* margin-left: 3em; */
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+@media (min-width: 950px) {
+    header {
+        text-align: center;
+        
+        
+}
+header h1 {
+    margin-left:7em;
+}
+.logo{
+    margin-left: -24em;
+}
+
+
+
+  
+}
